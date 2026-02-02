@@ -6,7 +6,7 @@ from ..models.user_schema import (
     UserBooksRequestSchema, UserBooksResponseSchema,
     UserBooksUpdateModel, UserUpdateSchema
 )
-from app.redis_app.utils import set_json, get_json  # Redis JSON helpers
+from ...redis_app.utils import set_json, get_json  # Redis JSON helpers
 
 user_ns = Namespace("user", description="User endpoints")
 
