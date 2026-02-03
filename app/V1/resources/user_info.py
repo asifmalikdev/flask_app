@@ -4,7 +4,8 @@ from ...extentions import db
 from ..models.user_schema import (
     UserRequestSchema, UserResponseSchema, 
     UserBooksRequestSchema, UserBooksResponseSchema,
-    UserBooksUpdateModel, UserUpdateSchema
+    UserBooksUpdateModel, UserUpdateSchema,
+    UserBookReturnModel
 )
 from ...redis_app.utils import set_json, get_json  # Redis JSON helpers
 
@@ -31,7 +32,6 @@ class UserInfoResource(Resource):
         """
         Create a new user. Clears the cache so that GET returns fresh data.
         """
-        breakpoint()
         data = user_ns.payload
         name = data.get("name", "")
         email = data.get("email", "")
@@ -107,7 +107,6 @@ class UserBooksView(Resource):
     @user_ns.expect(UserBooksUpdateModel)
     @marshal_with(UserBooksResponseSchema)
     def patch(self):
-        breakpoint()
         data = user_ns.payload
         id = data.get("id")
         if id:
@@ -134,3 +133,14 @@ class UserBooksView(Resource):
                     db.session.rollback()
                     return {"error": str(e)}, 400
         return data
+
+@user_ns.route("/books_of_user/<int:user_id>")
+class UserBooks(Resource):
+    @marshal_with(UserBookReturnModel)
+    def get(self, user_id):
+        
+            
+        
+
+        return "hello asif"
+

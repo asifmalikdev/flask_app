@@ -37,6 +37,11 @@ UserBooksUpdateModel = Model("UserBooksUpdateModel",{
     "user_id" : fields.Integer(required = False, description = "Author Id", example = 1)
 })
 
+UserBookReturnModel = Model("UserBookModel",{
+    "user_name": fields.String(attribute="user.name"),
+    "books": fields.List(fields.Nested(UserBooksResponseSchema))
+})
+
 def register_user_models(ns):
     """
     Attach models to namespace with clean names.
@@ -47,6 +52,7 @@ def register_user_models(ns):
     ns.models[UserBooksResponseSchema.name] = UserBooksResponseSchema
     ns.models[UserBooksUpdateModel.name] = UserBooksUpdateModel
     ns.models[UserUpdateSchema.name] = UserUpdateSchema
+    ns.models[UserBookReturnModel.name] UserBookReturnModel
 
 
     ns.UserRequestSchema = UserRequestSchema
@@ -55,3 +61,4 @@ def register_user_models(ns):
     ns.UserBooksResponseSchema = UserBooksResponseSchema
     ns.UserBooksUpdateModel = UserBooksUpdateModel
     ns.UserUpdateSchema = UserUpdateSchema
+    ns.UserBookReturnModel = UserBookReturnModel

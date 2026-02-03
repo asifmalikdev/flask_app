@@ -6,7 +6,10 @@ from .redis_app import redis_app
 
 migrate = Migrate()
 
-def create_app(config_object='config.Config'):
+def create_app(config_object=None):
+    if config_object is None:
+        from config import Config
+        config_object = Config
     app = Flask(__name__)
     app.config.from_object(config_object)
 
