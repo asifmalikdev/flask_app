@@ -139,8 +139,5 @@ class UserBooks(Resource):
     @marshal_with(UserBookReturnModel)
     def get(self, user_id):
         
-            
-        
-
         return "hello asif"
 
