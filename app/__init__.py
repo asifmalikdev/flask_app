@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from .V1 import create_app_v1
 from .extentions import db, cache
 from flask_migrate import Migrate
@@ -19,5 +19,9 @@ def create_app(config_object=None):
 
     app.register_blueprint(create_app_v1(), url_prefix='/api/v1')
     redis_app.init_app(app)
+
+    @app.errorhandler(404)
+    def not_found(error):
+        return jsonify({"error": "Not Found", "message": "The requested endpoint does not exist."}), 404
 
     return app
