@@ -52,7 +52,7 @@ def register_user_models(ns):
     ns.models[UserBooksResponseSchema.name] = UserBooksResponseSchema
     ns.models[UserBooksUpdateModel.name] = UserBooksUpdateModel
     ns.models[UserUpdateSchema.name] = UserUpdateSchema
-    ns.models[UserBookReturnModel.name] UserBookReturnModel
+    ns.models[UserBookReturnModel.name] = UserBookReturnModel
 
 
     ns.UserRequestSchema = UserRequestSchema
