@@ -134,12 +134,12 @@ class UserBooksView(Resource):
                     return {"error": str(e)}, 400
         return data
 
+
 @user_ns.route("/books_of_user/<int:user_id>")
 class UserBooksOfUser(Resource):
     @marshal_with(UserBookReturnModel)
-    def get(self, user_id):
+    def get(sel.f, user_id):
         user = User.query.get(user_id)
         if not user:
             user_ns.abort(404, f"User with id {user_id} not found")
         return user
-
