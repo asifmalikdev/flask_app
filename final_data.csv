@@ -1,0 +1,71 @@
+,User Id,User Name,Book Id,Book Title,Book Price
+0,1,User_1,B1_0,Book Title 1-0,53
+1,1,User_1,B1_1,Book Title 1-1,48
+2,1,User_1,B1_2,Nill,-
+3,1,User_1,B1_3,Book Title 1-3,66
+4,2,User_2,NILL,Nill,8417
+5,2,User_2,B2_1,Nill,-
+6,2,User_2,B2_2,Book Title 2-2,67
+7,2,User_2,B2_3,Book Title 2-3,9012
+8,2,User_2,B2_4,Book Title 2-4,1314
+9,2,User_2,B2_5,Book Title 2-5,-
+10,2,User_2,B2_6,Nill,404994
+11,2,User_2,B2_7,Nill,107190
+12,2,User_2,B2_8,Book Title 2-8,36
+13,3,User_3,B3_0,Book Title 3-0,-
+14,3,User_3,B3_1,Book Title 3-1,92
+15,3,User_3,B3_2,Book Title 3-2,-
+16,3,User_3,B3_3,Book Title 3-3,-
+17,3,User_3,B3_4,Book Title 3-4,64
+18,3,User_3,B3_5,Book Title 3-5,3222
+19,3,User_3,B3_6,Book Title 3-6,9010
+20,3,User_3,B3_7,Book Title 3-7,-
+21,3,User_3,B3_8,Book Title 3-8,82
+22,3,User_3,B3_9,Book Title 3-9,79
+23,4,User_4,B4_0,Book Title 4-0,3429
+24,4,User_4,B4_1,Nill,8231
+25,4,User_4,B4_2,Book Title 4-2,32
+26,4,User_4,B4_3,Book Title 4-3,27
+27,4,User_4,B4_4,Book Title 4-4,7321
+28,5,User_5,B5_0,Nill,84
+29,5,User_5,B5_1,Nill,118224
+30,5,User_5,B5_2,Book Title 5-2,382572
+31,5,User_5,NILL,Book Title 5-3,-
+32,5,User_5,B5_4,Book Title 5-4,896587
+33,6,User_6,B6_0,Book Title 6-0,5325
+34,6,User_6,NILL,Book Title 6-1,38
+35,6,User_6,B6_2,Book Title 6-2,40
+36,6,User_6,NILL,Book Title 6-3,17
+37,6,User_6,B6_4,Book Title 6-4,7069
+38,6,User_6,B6_5,Book Title 6-5,960521
+39,7,User_7,B7_0,Book Title 7-0,97
+40,7,User_7,B7_1,Book Title 7-1,557674
+41,7,User_7,NILL,Book Title 7-2,321589
+42,7,User_7,B7_3,Book Title 7-3,96
+43,7,User_7,B7_4,Book Title 7-4,8495
+44,7,User_7,B7_5,Book Title 7-5,-
+45,7,User_7,B7_6,Book Title 7-6,-
+46,7,User_7,B7_7,Book Title 7-7,-
+47,7,User_7,B7_8,Book Title 7-8,9766
+48,8,User_8,B8_0,Nill,958123
+49,8,User_8,B8_1,Book Title 8-1,778436
+50,8,User_8,B8_2,Book Title 8-2,928871
+51,9,User_9,B9_0,Book Title 9-0,-
+52,9,User_9,B9_1,Book Title 9-1,-
+53,9,User_9,B9_2,Book Title 9-2,96
+54,9,User_9,B9_3,Book Title 9-3,-
+55,9,User_9,B9_4,Book Title 9-4,3510
+56,10,User_10,NILL,Book Title 10-0,1864
+57,10,User_10,B10_1,Nill,-
+58,10,User_10,B10_2,Book Title 10-2,-
+59,10,User_10,B10_3,Book Title 10-3,673011
+60,10,User_10,B10_4,Book Title 10-4,81
+61,10,User_10,NILL,Nill,4927
+62,10,User_10,B10_6,Book Title 10-6,330523
+63,10,User_10,B10_7,Book Title 10-7,3343
+64,10,User_10,B10_8,Book Title 10-8,88
+65,10,User_10,B10_9,Book Title 10-9,100
+66,10,User_10,B10_10,Book Title 10-10,282148
+67,10,User_10,B10_11,Book Title 10-11,-
+68,10,User_10,B10_12,Book Title 10-12,51
+69,10,User_10,B10_13,Nill,37
